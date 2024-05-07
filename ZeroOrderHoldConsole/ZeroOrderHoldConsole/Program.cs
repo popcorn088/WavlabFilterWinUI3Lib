@@ -1,5 +1,4 @@
 ﻿using System;
-using WavlabFilterWinUI3Lib;
 
 namespace MyApp // Note: actual namespace depends on the project name.
 {
@@ -7,8 +6,7 @@ namespace MyApp // Note: actual namespace depends on the project name.
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            WavlabFilterClient client = new WavlabFilterClient();
+            WavlabFilterWinUI3Lib.WavlabFilterClient client = new WavlabFilterWinUI3Lib.WavlabFilterClient();
             client.SendCoefs(new double[] { 0.2, 0.2, 0.2, 0.2, 0.2 }, new double[0]);
         }
     }

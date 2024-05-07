@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "ZeroOrderHold (Package)": {
+      "commandName": "MsixPackage"
+    },
+    "ZeroOrderHold (Unpackaged)": {
+      "commandName": "Project"
+    }
+  }
+}

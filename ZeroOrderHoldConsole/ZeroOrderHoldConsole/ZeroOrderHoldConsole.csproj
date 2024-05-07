@@ -9,9 +9,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="WavlabFilterWinUI3Lib">
-      <HintPath>..\..\WavlabFilterWinUI3Lib.dll</HintPath>
-    </Reference>
+    <ProjectReference Include="..\..\WavlabFilterWinUI3Lib\WavlabFilterWinUI3Lib.csproj" />
   </ItemGroup>
 
 </Project>
