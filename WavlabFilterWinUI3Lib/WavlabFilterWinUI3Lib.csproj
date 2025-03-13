@@ -5,8 +5,9 @@
     <RootNamespace>WavlabFilterWinUI3Lib</RootNamespace>
     <RuntimeIdentifiers>win-x86;win-x64</RuntimeIdentifiers>
 	  <UseWinUI>true</UseWinUI>
-	  <PlatformTarget>x64</PlatformTarget>
+	  <PlatformTarget>AnyCPU</PlatformTarget>
 	  <Platforms>AnyCPU;ARM64;x64;x86</Platforms>
+	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
   </PropertyGroup>
 
   <ItemGroup>
