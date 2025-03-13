@@ -1,6 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-using WavlabFilterWinUI3Lib;
+﻿using WavlabFilterWinUI3Lib;
 
 namespace ZeroOrderHoldConsole // Note: actual namespace depends on the project name.
 {
