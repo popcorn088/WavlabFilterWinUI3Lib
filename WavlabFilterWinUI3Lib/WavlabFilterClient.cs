@@ -13,11 +13,15 @@ namespace WavlabFilterWinUI3Lib
 
         public static Task<HttpResponseMessage> SendCoefsAsync(int portNumber, int timeoutSec, CoefsData coefsData)
         {
-            var httpClient = new HttpClient();
-            httpClient.Timeout = new TimeSpan(0, 0, timeoutSec);
-            var request = new HttpRequestMessage();
-            request.Method = HttpMethod.Post;
-            request.RequestUri = new Uri($"http://localhost:{portNumber}/");
+            var httpClient = new HttpClient
+            {
+                Timeout = new TimeSpan(0, 0, timeoutSec)
+            };
+            var request = new HttpRequestMessage
+            {
+                Method = HttpMethod.Post,
+                RequestUri = new Uri($"http://localhost:{portNumber}/")
+            };
             var json = JsonConvert.SerializeObject(coefsData);
             request.Content = new StringContent(json);
 
