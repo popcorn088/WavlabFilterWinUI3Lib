@@ -8,6 +8,7 @@
 	  <PlatformTarget>AnyCPU</PlatformTarget>
 	  <Platforms>AnyCPU;ARM64;x64;x86</Platforms>
 	  <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	  <Version>1.0.2</Version>
   </PropertyGroup>
 
   <ItemGroup>
